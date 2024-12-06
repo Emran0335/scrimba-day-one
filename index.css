@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 100vh;
+  background-color: #dfe0df;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 1em 0;
+  border-radius: 15px;
+  font-family: "Poppins";
+  color: #054787;
+}
+h1 {
+  font-size: 3em;
+  margin: 0.25em 0 0.75em 0;
+  font-family: "Caveat";
+}
+
+input::placeholder {
+  font-size: 0.8em;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+  position: relative;
+}
+#item-input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #054787;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+  background-color: #218838;
+}
+
+button:active {
+  background-color: #ffc300;
+  color: black;
+}
+
+label {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  align-self: flex flex-start;
+  margin-left: 1px;
+  background-color: white;
+  padding: 0 8px;
+}
+
+#shopping-list {
+  padding-top: 16px;
+  list-style: "🎁 ";
+}
+
+#shopping-list > li {
+  width: 10%;
+}
+
+#shopping-list button {
+  right: 100px;
+  position: relative;
+  right: -75px;
+  top: -28px;
+  margin-left: 8px;
+}
